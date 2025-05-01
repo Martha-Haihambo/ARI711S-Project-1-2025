@@ -1,22 +1,20 @@
-# Part 1 Search Algorithm
+# Part 2 Sudoku Solver
 
-This Python program determines how many degrees of separation exist between two scientists based on thepapers they have co authored.
+The program is designed to solve a Sudoku puzzle using AI techniques from Constraint Satisfaction Problems
 
-It uses a breadth first search algorithm to find the shortest path of co authorship from one scientist to another.
+It fill in the missing numbers in a 9×9 Sudoku grid so that, Each row, column, and 3x3 box contains all numbers from 1 to 9 without any repeating.
 
 # Project Structure
 
 -Dataset
-   -authors.csv 
-   -papers.csv 
-   -scientist.csv 
--Load.py
--Search.py
--Main.py
+   -sudoku_easy.txt 
+   -sudoku_medium.txt 
+   -sudoku_hard.txt 
+-sudoku_AI_solver.py
 
 # Requirements 
 -python 3.10+
--Dataset 
+-Data [For Testing]
  
  # Authors 
 Donevan Stuurman 222077336 
